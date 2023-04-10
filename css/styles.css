@@ -1,0 +1,413 @@
+:root {
+  --brend: #4d5ae5;
+  --dark: #2e2f42;
+  --white: #ffffff;
+  --btn: #4d5ae5;
+  --iris: #4d5ae5;
+  --cold: #f4f4fd;
+  --ocian: #404bbf;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* header */
+
+.box {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: inline-block;
+  color: var(--brend);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--brend);
+}
+
+.link:focus {
+  color: var(--brend);
+}
+
+.span {
+  color: var(--dark);
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  padding: 24px 0;
+}
+
+.menu:hover {
+  color: var(--ocian);
+}
+
+.menu:focus {
+  color: var(--ocian);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  padding: 24px 0;
+}
+
+.adress-list {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.adress {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.adress:hover {
+  color: var(--ocian);
+}
+.adress:focus {
+  color: var(--ocian);
+}
+/* main */
+
+/* mainsection */
+.maintext {
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.mainsection {
+  background: var(--dark);
+  padding: 188px 0;
+  left: 0px;
+  top: 72px;
+}
+
+.maintext {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  cursor: pointer;
+  background: var(--brend);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  background-color: var(--ocian);
+}
+
+.btn:focus {
+  background-color: var(--ocian);
+}
+
+/* about */
+.about {
+  padding: 120px 0;
+  left: 156px;
+  top: 792px;
+}
+
+.about-list {
+  flex-basis: calc((100%- 72px) / 4);
+}
+
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 8px;
+  width: 264px;
+  height: 24px;
+}
+
+.strategytext {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  width: 264px;
+  height: 72px;
+}
+
+/* jobe */
+.jobe {
+  padding-bottom: 120px;
+}
+
+.ourjobe {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark);
+  margin-bottom: 72px;
+}
+
+.jib {
+  display: flex;
+  gap: 24px;
+}
+
+.jobe-list {
+  width: calc((100% - 48px) / 3);
+}
+.comp {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #e7e9fc;
+}
+.add {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #e7e9fc;
+}
+.mob {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #e7e9fc;
+}
+
+/* team */
+
+.team {
+  background-color: var(--cold);
+  padding: 120px 0;
+}
+
+.teamtext {
+  background-color: var(--cold);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+  margin-bottom: 72px;
+}
+
+.list-team {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.back {
+  width: calc((100% - 72px) / 4);
+  background-color: var(--white);
+}
+.name-work {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* footer */
+.footer {
+  background: var(--dark);
+  padding: 100px 0;
+}
+.logo-futer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: inline-block;
+  color: var(--brend);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: var(--cold);
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--cold);
+  max-width: 264px;
+}
+
+.search-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--brend);
+  box-sizing: border-box;
+  background: var(--cold);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 24px;
+}
+
+.search-btn:hover {
+  color: var(--white);
+  background-color: var(--ocian);
+  border: 1px solid transparent;
+}
+
+.search-btn:focus {
+  color: var(--white);
+  background-color: var(--ocian);
+  border: 1px solid transparent;
+}
+
+/* portfoio */
+
+.portfolio {
+  padding: 96px 0 120px;
+}
+.btnp {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button {
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+.button .hoveer {
+  border: 1px solid transparent;
+}
+.button .focus {
+  border: 1px solid transparent;
+}
+.list-proj {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.proj {
+  width: calc((100% - 48px) / 3);
+}
+.name-proj {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
